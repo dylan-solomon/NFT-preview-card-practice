@@ -48,6 +48,12 @@ h1 {
     margin: 1.4rem 0;
 }
 
+h1:hover,
+h1:active {
+    color: var(--clr-primary-cyan);
+    cursor: pointer;
+}
+
 .container p {
     margin-top: 0;
     color: var(--clr-primary-blue);
@@ -116,6 +122,12 @@ h1 {
 span {
     font-weight: var(--fw-600);
     color: var(--white);
+}
+
+span:hover,
+span:active {
+    color: var(--clr-primary-cyan);
+    cursor: pointer;
 }
 
 
