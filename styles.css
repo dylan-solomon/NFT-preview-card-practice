@@ -1,0 +1,28 @@
+:root {
+    --clr-primary-blue: hsl(215, 51%, 70%);
+    --clr-primary-cyan:  hsl(178, 100%, 50%);
+    --bg-main: hsl(217, 54%, 11%);
+    --bg-card: hsl(216, 50%, 16%);
+    --border: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --ff-main: 'Outfit', Arial, sans-serif;
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fs-main: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 375;){
+
+    
+}
