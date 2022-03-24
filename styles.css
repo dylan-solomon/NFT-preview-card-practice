@@ -34,11 +34,38 @@ body {
     border-radius: 1rem;
 }
 
-.main-image {
+.image-container {
+    position: relative;
     height: 300px;
     width: 300px;
-    border-radius: .8rem;
 }
+
+.image-container:hover .main-image,
+.image-container:active .main-image {
+    opacity: .3;
+}
+
+.image-container:hover .hover-image,
+.image-container:active .hover-image{
+    opacity: 1;
+}
+
+.main-image {
+    height: 100%;
+    width: auto;
+    border-radius: .8rem;
+    opacity: 1;
+}
+
+.hover-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity .2s;
+}
+
 
 h1 {
     color: var(--white);

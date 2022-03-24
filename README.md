@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-I continued expanding my knowledge of Flexbox, css selectors and positioning elements directly in the center of a page.
+The main thing I learned from this project was how to overlay an image on top of another image, and display it upon hover. I not only used opacity for the first time, I also was able to use a bit of a transition for the first time as well. I also continued expanding my knowledge of Flexbox, css selectors and positioning elements directly in the center of a page.
 
 
 ## Author
